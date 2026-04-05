@@ -1,0 +1,1499 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Build Order:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] SudokuGameProject                                                  [pom]
+[[1;34mINFO[m] ModelProject                                                       [jar]
+[[1;34mINFO[m] DaoProject                                                         [jar]
+[[1;34mINFO[m] JdbcDaoProject                                                     [jar]
+[[1;34mINFO[m] ViewProject                                                        [jar]
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------------< [0;36msudoku.root:SudokuGameProject[0;1m >--------------------[m
+[[1;34mINFO[m] [1mBuilding SudokuGameProject 2.0-SNAPSHOT                            [1/5][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mSudokuGameProject[0;1m ---[m
+[[1;34mINFO[m] Installing /home/mason/SynologyDrive/School/winter26/COMP-3350/COMP-3350-sudoku-desktop-game/pom.xml to /home/mason/.m2/repository/sudoku/root/SudokuGameProject/2.0-SNAPSHOT/SudokuGameProject-2.0-SNAPSHOT.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------------< [0;36msudoku.model:ModelProject[0;1m >----------------------[m
+[[1;34mINFO[m] [1mBuilding ModelProject 2.0-SNAPSHOT                                 [2/5][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.11:prepare-agent[m [1m(default-prepare-agent)[m @ [36mModelProject[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/home/mason/.m2/repository/org/jacoco/org.jacoco.agent/0.8.11/org.jacoco.agent-0.8.11-runtime.jar=destfile=/home/mason/SynologyDrive/School/winter26/COMP-3350/COMP-3350-sudoku-desktop-game/Model/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mModelProject[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:compile[m [1m(default-compile)[m @ [36mModelProject[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 16 source files to /home/mason/SynologyDrive/School/winter26/COMP-3350/COMP-3350-sudoku-desktop-game/Model/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mModelProject[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/mason/SynologyDrive/School/winter26/COMP-3350/COMP-3350-sudoku-desktop-game/Model/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:testCompile[m [1m(default-testCompile)[m @ [36mModelProject[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 4 source files to /home/mason/SynologyDrive/School/winter26/COMP-3350/COMP-3350-sudoku-desktop-game/Model/target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:3.1.2:test[m [1m(default-test)[m @ [36mModelProject[0;1m ---[m
+[[1;34mINFO[m] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running models.[1mSudokuBaseContainerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m13[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.083 s -- in models.[1mSudokuBaseContainerTest[m
+[[1;34mINFO[m] Running models.[1mSudokuBoardTest[m
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:41 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m27[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.416 s -- in models.[1mSudokuBoardTest[m
+[[1;34mINFO[m] Running models.[1mSudokuFieldTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in models.[1mSudokuFieldTest[m
+[[1;34mINFO[m] Running helpers.[1mUniqueCheckerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in helpers.[1mUniqueCheckerTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 44, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.11:report[m [1m(report)[m @ [36mModelProject[0;1m ---[m
+[[1;34mINFO[m] Loading execution data file /home/mason/SynologyDrive/School/winter26/COMP-3350/COMP-3350-sudoku-desktop-game/Model/target/jacoco.exec
+[[1;34mINFO[m] Analyzed bundle 'ModelProject' with 14 classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.4:jar[m [1m(default-jar)[m @ [36mModelProject[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/mason/SynologyDrive/School/winter26/COMP-3350/COMP-3350-sudoku-desktop-game/Model/target/ModelProject-2.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.11:report[m [1m(default-report)[m @ [36mModelProject[0;1m ---[m
+[[1;34mINFO[m] Loading execution data file /home/mason/SynologyDrive/School/winter26/COMP-3350/COMP-3350-sudoku-desktop-game/Model/target/jacoco.exec
+[[1;34mINFO[m] Analyzed bundle 'ModelProject' with 14 classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.11:check[m [1m(default-check)[m @ [36mModelProject[0;1m ---[m
+[[1;34mINFO[m] Loading execution data file /home/mason/SynologyDrive/School/winter26/COMP-3350/COMP-3350-sudoku-desktop-game/Model/target/jacoco.exec
+[[1;34mINFO[m] Analyzed bundle 'ModelProject' with 14 classes
+[[1;34mINFO[m] All coverage checks have been met.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mModelProject[0;1m ---[m
+[[1;34mINFO[m] Installing /home/mason/SynologyDrive/School/winter26/COMP-3350/COMP-3350-sudoku-desktop-game/Model/target/ModelProject-2.0-SNAPSHOT.jar to /home/mason/.m2/repository/sudoku/model/ModelProject/2.0-SNAPSHOT/ModelProject-2.0-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /home/mason/SynologyDrive/School/winter26/COMP-3350/COMP-3350-sudoku-desktop-game/Model/pom.xml to /home/mason/.m2/repository/sudoku/model/ModelProject/2.0-SNAPSHOT/ModelProject-2.0-SNAPSHOT.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------------< [0;36msudoku.dao:DaoProject[0;1m >------------------------[m
+[[1;34mINFO[m] [1mBuilding DaoProject 2.0-SNAPSHOT                                   [3/5][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.11:prepare-agent[m [1m(default-prepare-agent)[m @ [36mDaoProject[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/home/mason/.m2/repository/org/jacoco/org.jacoco.agent/0.8.11/org.jacoco.agent-0.8.11-runtime.jar=destfile=/home/mason/SynologyDrive/School/winter26/COMP-3350/COMP-3350-sudoku-desktop-game/Dao/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mDaoProject[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:compile[m [1m(default-compile)[m @ [36mDaoProject[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 5 source files to /home/mason/SynologyDrive/School/winter26/COMP-3350/COMP-3350-sudoku-desktop-game/Dao/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mDaoProject[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/mason/SynologyDrive/School/winter26/COMP-3350/COMP-3350-sudoku-desktop-game/Dao/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:testCompile[m [1m(default-testCompile)[m @ [36mDaoProject[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 2 source files to /home/mason/SynologyDrive/School/winter26/COMP-3350/COMP-3350-sudoku-desktop-game/Dao/target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:3.1.2:test[m [1m(default-test)[m @ [36mDaoProject[0;1m ---[m
+[[1;34mINFO[m] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running sudoku.dao.[1mSudokuBoardDaoFactoryTest[m
+16:20:42,493 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+16:20:42,493 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+16:20:42,493 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/home/mason/SynologyDrive/School/winter26/COMP-3350/COMP-3350-sudoku-desktop-game/Dao/target/classes/logback.xml]
+16:20:42,493 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs multiple times on the classpath.
+16:20:42,493 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [file:/home/mason/SynologyDrive/School/winter26/COMP-3350/COMP-3350-sudoku-desktop-game/Dao/target/classes/logback.xml]
+16:20:42,493 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [jar:file:/home/mason/SynologyDrive/School/winter26/COMP-3350/COMP-3350-sudoku-desktop-game/Model/target/ModelProject-2.0-SNAPSHOT.jar!/logback.xml]
+16:20:42,533 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+16:20:42,533 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+16:20:42,539 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+16:20:42,544 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+16:20:42,586 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.FileAppender]
+16:20:42,588 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [FILE]
+16:20:42,592 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+16:20:42,593 |-INFO in ch.qos.logback.core.FileAppender[FILE] - File property is set to [logs/app.log]
+16:20:42,594 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to DEBUG
+16:20:42,595 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ROOT]
+16:20:42,595 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [FILE] to Logger[ROOT]
+16:20:42,595 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+16:20:42,596 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@2c1dc8e - Registering current configuration as safe fallback point
+
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.177 s -- in sudoku.dao.[1mSudokuBoardDaoFactoryTest[m
+[[1;34mINFO[m] Running sudoku.dao.[1mFileSudokuBoardDaoTest[m
+2026-04-05 16:20:42 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:42 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:42 INFO  sudoku.model.models.SudokuBoard - Invalid Sudoku board after setting field value
+2026-04-05 16:20:42 INFO  sudoku.dao.models.FileSudokuBoardDao - Sudoku board saved to file: test_board
+2026-04-05 16:20:42 INFO  sudoku.dao.models.FileSudokuBoardDao - Sudoku board read from file: test_board
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.087 s -- in sudoku.dao.[1mFileSudokuBoardDaoTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 2, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.11:report[m [1m(report)[m @ [36mDaoProject[0;1m ---[m
+[[1;34mINFO[m] Loading execution data file /home/mason/SynologyDrive/School/winter26/COMP-3350/COMP-3350-sudoku-desktop-game/Dao/target/jacoco.exec
+[[1;34mINFO[m] Analyzed bundle 'DaoProject' with 4 classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.4:jar[m [1m(default-jar)[m @ [36mDaoProject[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/mason/SynologyDrive/School/winter26/COMP-3350/COMP-3350-sudoku-desktop-game/Dao/target/DaoProject-2.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.11:report[m [1m(default-report)[m @ [36mDaoProject[0;1m ---[m
+[[1;34mINFO[m] Loading execution data file /home/mason/SynologyDrive/School/winter26/COMP-3350/COMP-3350-sudoku-desktop-game/Dao/target/jacoco.exec
+[[1;34mINFO[m] Analyzed bundle 'DaoProject' with 4 classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.11:check[m [1m(default-check)[m @ [36mDaoProject[0;1m ---[m
+[[1;34mINFO[m] Loading execution data file /home/mason/SynologyDrive/School/winter26/COMP-3350/COMP-3350-sudoku-desktop-game/Dao/target/jacoco.exec
+[[1;34mINFO[m] Analyzed bundle 'DaoProject' with 4 classes
+[[1;34mINFO[m] All coverage checks have been met.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mDaoProject[0;1m ---[m
+[[1;34mINFO[m] Installing /home/mason/SynologyDrive/School/winter26/COMP-3350/COMP-3350-sudoku-desktop-game/Dao/target/DaoProject-2.0-SNAPSHOT.jar to /home/mason/.m2/repository/sudoku/dao/DaoProject/2.0-SNAPSHOT/DaoProject-2.0-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /home/mason/SynologyDrive/School/winter26/COMP-3350/COMP-3350-sudoku-desktop-game/Dao/pom.xml to /home/mason/.m2/repository/sudoku/dao/DaoProject/2.0-SNAPSHOT/DaoProject-2.0-SNAPSHOT.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------------< [0;36msudoku.jdbcdao:JdbcDaoProject[0;1m >--------------------[m
+[[1;34mINFO[m] [1mBuilding JdbcDaoProject 2.0-SNAPSHOT                               [4/5][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.11:prepare-agent[m [1m(default-prepare-agent)[m @ [36mJdbcDaoProject[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/home/mason/.m2/repository/org/jacoco/org.jacoco.agent/0.8.11/org.jacoco.agent-0.8.11-runtime.jar=destfile=/home/mason/SynologyDrive/School/winter26/COMP-3350/COMP-3350-sudoku-desktop-game/JdbcDao/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjooq-codegen-maven:3.19.9:generate[m [1m(generate-sources)[m @ [36mJdbcDaoProject[0;1m ---[m
+[[1;34mINFO[m] 
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.19.9 (Build date: 2024-05-30T06:38:49Z)
+                                      
+[[1;34mINFO[m] 
+
+jOOQ tip of the day: Don't want tips? Use the -Dorg.jooq.no-tips=true system property
+
+[[1;34mINFO[m] No <inputCatalog/> was provided. Generating ALL available catalogs instead.
+[[1;34mINFO[m] No <inputSchema/> was provided. Generating ALL available schemata instead.
+[[1;34mINFO[m] License parameters       
+[[1;34mINFO[m] ----------------------------------------------------------
+[[1;34mINFO[m]   Thank you for using jOOQ and jOOQ's code generator
+[[1;34mINFO[m]                          
+[[1;34mINFO[m] Database parameters      
+[[1;34mINFO[m] ----------------------------------------------------------
+[[1;34mINFO[m]   dialect                : SQLITE
+[[1;34mINFO[m]   URL                    : jdbc:sqlite:JdbcDao/sudoku.db
+[[1;34mINFO[m]   target dir             : /home/mason/SynologyDrive/School/winter26/COMP-3350/COMP-3350-sudoku-desktop-game/JdbcDao/target/generated-sources/jooq
+[[1;34mINFO[m]   target package         : sudokujdbc.jooq.generated
+[[1;34mINFO[m]   includes               : []
+[[1;34mINFO[m]   excludes               : []
+[[1;34mINFO[m]   includeExcludeColumns  : false
+[[1;34mINFO[m] ----------------------------------------------------------
+[[1;34mINFO[m]                          
+[[1;34mINFO[m] JavaGenerator parameters 
+[[1;34mINFO[m] ----------------------------------------------------------
+[[1;34mINFO[m] annotations              
+[[1;34mINFO[m]   generated              : false
+[[1;34mINFO[m]   JPA                    : false
+[[1;34mINFO[m]   JPA version            : 
+[[1;34mINFO[m]   validation             : false
+[[1;34mINFO[m]   spring                 : false
+[[1;34mINFO[m] comments                 
+[[1;34mINFO[m]   comments               : true
+[[1;34mINFO[m]   on attributes          : true
+[[1;34mINFO[m]   on catalogs            : true
+[[1;34mINFO[m]   on columns             : true
+[[1;34mINFO[m]   on embeddables         : true
+[[1;34mINFO[m]   on keys                : true
+[[1;34mINFO[m]   on links               : true
+[[1;34mINFO[m]   on packages            : true
+[[1;34mINFO[m]   on parameters          : true
+[[1;34mINFO[m]   on queues              : true
+[[1;34mINFO[m]   on routines            : true
+[[1;34mINFO[m]   on schemas             : true
+[[1;34mINFO[m]   on sequences           : true
+[[1;34mINFO[m]   on tables              : true
+[[1;34mINFO[m]   on udts                : true
+[[1;34mINFO[m] sources                  
+[[1;34mINFO[m]   sources                : true
+[[1;34mINFO[m]   sources on views       : true
+[[1;34mINFO[m] global references        
+[[1;34mINFO[m]   global references      : true
+[[1;34mINFO[m]   catalogs               : true
+[[1;34mINFO[m]   domains                : true
+[[1;34mINFO[m]   indexes                : true
+[[1;34mINFO[m]   keys                   : true
+[[1;34mINFO[m]   links                  : true
+[[1;34mINFO[m]   queues                 : true
+[[1;34mINFO[m]   routines               : true
+[[1;34mINFO[m]   schemas                : true
+[[1;34mINFO[m]   sequences              : true
+[[1;34mINFO[m]   tables                 : true
+[[1;34mINFO[m]   udts                   : true
+[[1;34mINFO[m] object types             
+[[1;34mINFO[m]   daos                   : false
+[[1;34mINFO[m]   indexes                : true
+[[1;34mINFO[m]   instance fields        : true
+[[1;34mINFO[m]   interfaces             : false
+[[1;34mINFO[m]   interfaces (immutable) : false
+[[1;34mINFO[m]   javadoc                : true
+[[1;34mINFO[m]   keys                   : true
+[[1;34mINFO[m]   links                  : true
+[[1;34mINFO[m]   pojos                  : false
+[[1;34mINFO[m]   pojos (immutable)      : false
+[[1;34mINFO[m]   queues                 : true
+[[1;34mINFO[m]   records                : true
+[[1;34mINFO[m]   routines               : true
+[[1;34mINFO[m]   sequences              : true
+[[1;34mINFO[m]   sequenceFlags          : true
+[[1;34mINFO[m]   table-valued functions : true
+[[1;34mINFO[m]   tables                 : true
+[[1;34mINFO[m]   udts                   : true
+[[1;34mINFO[m]   relations              : true
+[[1;34mINFO[m] other                    
+[[1;34mINFO[m]   deprecated code        : true
+[[1;34mINFO[m] ----------------------------------------------------------
+[[1;34mINFO[m]                          
+[[1;34mINFO[m] Generation remarks       
+[[1;34mINFO[m] ----------------------------------------------------------
+[[1;34mINFO[m]                          
+[[1;34mINFO[m] ----------------------------------------------------------
+[[1;34mINFO[m] Generating catalogs      : Total: 1
+[[1;34mINFO[m] ARRAYs fetched           : 0 (0 included, 0 excluded)
+[[1;34mINFO[m] Domains fetched          : 0 (0 included, 0 excluded)
+[[1;33mWARNING[m] Version mismatch         : Database version is older than what dialect SQLITE supports: 3.36.0. Consider https://www.jooq.org/download/support-matrix to see what jOOQ version and edition supports which RDBMS versions.
+[[1;34mINFO[m] Tables fetched           : 2 (2 included, 0 excluded)
+[[1;34mINFO[m] Embeddables fetched      : 0 (0 included, 0 excluded)
+[[1;34mINFO[m] Enums fetched            : 0 (0 included, 0 excluded)
+[[1;34mINFO[m] Packages fetched         : 0 (0 included, 0 excluded)
+[[1;34mINFO[m] Routines fetched         : 0 (0 included, 0 excluded)
+[[1;34mINFO[m] Sequences fetched        : 0 (0 included, 0 excluded)
+[[1;34mINFO[m] No schema version is applied for catalog . Regenerating.
+[[1;34mINFO[m]                          
+[[1;34mINFO[m] Generating catalog       : DefaultCatalog.java
+[[1;34mINFO[m] ==========================================================
+[[1;34mINFO[m] Comments fetched         : 0 (0 included, 0 excluded)
+[[1;34mINFO[m] Generating schemata      : Total: 1
+[[1;34mINFO[m] No schema version is applied for schema . Regenerating.
+[[1;34mINFO[m] Generating schema        : DefaultSchema.java
+[[1;34mINFO[m] ----------------------------------------------------------
+[[1;34mINFO[m] UDTs fetched             : 0 (0 included, 0 excluded)
+[[1;34mINFO[m] Generating tables        
+[[1;34mINFO[m] Generating table         : SudokuBoards.java [input=SUDOKU_BOARDS, pk=pk_SUDOKU_BOARDS]
+[[1;34mINFO[m] Indexes fetched          : 0 (0 included, 0 excluded)
+[[1;34mINFO[m] Generating table         : SudokuFields.java [input=SUDOKU_FIELDS, pk=pk_SUDOKU_FIELDS]
+[[1;34mINFO[m] Tables generated         : Total: 238.828ms
+[[1;34mINFO[m] Generating table records 
+[[1;34mINFO[m] Generating record        : SudokuBoardsRecord.java
+[[1;34mINFO[m] Generating record        : SudokuFieldsRecord.java
+[[1;34mINFO[m] Table records generated  : Total: 265.335ms, +26.506ms
+[[1;34mINFO[m] Generating table references
+[[1;34mINFO[m] Table refs generated     : Total: 266.006ms, +0.671ms
+[[1;34mINFO[m] Generating Keys          
+[[1;34mINFO[m] Keys generated           : Total: 267.241ms, +1.234ms
+[[1;34mINFO[m] Generating Indexes       
+[[1;34mINFO[m] Skipping empty indexes   
+[[1;34mINFO[m] Generation finished:     : Total: 267.359ms, +0.117ms
+[[1;34mINFO[m]                          
+[[1;34mINFO[m] Affected files: 8        
+[[1;34mINFO[m] Modified files: 8        
+[[1;34mINFO[m] Removing excess files    
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mJdbcDaoProject[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 4 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mJdbcDaoProject[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 16 source files to /home/mason/SynologyDrive/School/winter26/COMP-3350/COMP-3350-sudoku-desktop-game/JdbcDao/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mJdbcDaoProject[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/mason/SynologyDrive/School/winter26/COMP-3350/COMP-3350-sudoku-desktop-game/JdbcDao/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mJdbcDaoProject[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 1 source file to /home/mason/SynologyDrive/School/winter26/COMP-3350/COMP-3350-sudoku-desktop-game/JdbcDao/target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:3.1.2:test[m [1m(default-test)[m @ [36mJdbcDaoProject[0;1m ---[m
+[[1;34mINFO[m] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running sudoku.jdbcdao.[1mJdbcSudokuBoardDaoTest[m
+16:20:45,266 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+16:20:45,266 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+16:20:45,266 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [jar:file:/home/mason/SynologyDrive/School/winter26/COMP-3350/COMP-3350-sudoku-desktop-game/Model/target/ModelProject-2.0-SNAPSHOT.jar!/logback.xml]
+16:20:45,267 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs multiple times on the classpath.
+16:20:45,267 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [jar:file:/home/mason/SynologyDrive/School/winter26/COMP-3350/COMP-3350-sudoku-desktop-game/Dao/target/DaoProject-2.0-SNAPSHOT.jar!/logback.xml]
+16:20:45,267 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [jar:file:/home/mason/SynologyDrive/School/winter26/COMP-3350/COMP-3350-sudoku-desktop-game/Model/target/ModelProject-2.0-SNAPSHOT.jar!/logback.xml]
+16:20:45,279 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@7a485a36 - URL [jar:file:/home/mason/SynologyDrive/School/winter26/COMP-3350/COMP-3350-sudoku-desktop-game/Model/target/ModelProject-2.0-SNAPSHOT.jar!/logback.xml] is not of type file
+16:20:45,308 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+16:20:45,309 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+16:20:45,316 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+16:20:45,320 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+16:20:45,341 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.FileAppender]
+16:20:45,343 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [FILE]
+16:20:45,346 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+16:20:45,346 |-INFO in ch.qos.logback.core.FileAppender[FILE] - File property is set to [logs/app.log]
+16:20:45,347 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to DEBUG
+16:20:45,347 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ROOT]
+16:20:45,348 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [FILE] to Logger[ROOT]
+16:20:45,348 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+16:20:45,348 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@5cf3157b - Registering current configuration as safe fallback point
+
+2026-04-05 16:20:45 INFO  org.jooq.Constants - 
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.19.9 (Build date: 2024-05-30T06:38:49Z)
+                                      
+2026-04-05 16:20:45 INFO  org.jooq.Constants - 
+
+jOOQ tip of the day: Need to frequently calculate the same expressions based on other columns from the same table? Many dialects support computed columns: https://www.jooq.org/doc/latest/manual/sql-building/column-expressions/computed-columns/
+
+2026-04-05 16:20:45 DEBUG org.jooq.tools.LoggerListener - Executing query          : create table if not exists SUDOKU_BOARDS (id integer primary key autoincrement not null, name clob not null)
+2026-04-05 16:20:45 WARN  o.j.i.D.logVersionSupport - Version mismatch         : Database version is older than what dialect SQLITE supports: 3.36.0. Consider https://www.jooq.org/download/support-matrix to see what jOOQ version and edition supports which RDBMS versions.
+2026-04-05 16:20:45 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 0
+2026-04-05 16:20:45 DEBUG org.jooq.tools.LoggerListener - Executing query          : create table if not exists SUDOKU_FIELDS (id integer primary key autoincrement not null, board_id int, "row" int, "column" int, value int)
+2026-04-05 16:20:45 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 0
+2026-04-05 16:20:45 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_BOARDS (name) values (?)
+2026-04-05 16:20:45 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_BOARDS (name) values ('testBoard')
+2026-04-05 16:20:45 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:45 DEBUG org.jooq.tools.LoggerListener - Executing query          : select SUDOKU_BOARDS.id from SUDOKU_BOARDS where _rowid_ = last_insert_rowid()
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Fetched result           : +----+
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener -                          : |  id|
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener -                          : +----+
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener -                          : |   1|
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener -                          : +----+
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Fetched row(s)           : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 0, 0, 5)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 0, 1, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 0, 2, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 0, 3, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 0, 4, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 0, 5, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 0, 6, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 0, 7, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 0, 8, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 1, 0, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 1, 1, 3)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 1, 2, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 1, 3, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 1, 4, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 1, 5, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 1, 6, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 1, 7, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 1, 8, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 2, 0, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 2, 1, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 2, 2, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 2, 3, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 2, 4, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 2, 5, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 2, 6, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 2, 7, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 2, 8, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 3, 0, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 3, 1, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 3, 2, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 3, 3, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 3, 4, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 3, 5, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 3, 6, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 3, 7, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 3, 8, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 4, 0, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 4, 1, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 4, 2, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 4, 3, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 4, 4, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 4, 5, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 4, 6, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 4, 7, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 4, 8, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 5, 0, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 5, 1, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 5, 2, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 5, 3, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 5, 4, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 5, 5, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 5, 6, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 5, 7, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 5, 8, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 6, 0, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 6, 1, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 6, 2, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 6, 3, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 6, 4, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 6, 5, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 6, 6, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 6, 7, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 6, 8, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 7, 0, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 7, 1, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 7, 2, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 7, 3, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 7, 4, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 7, 5, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 7, 6, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 7, 7, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 7, 8, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 8, 0, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 8, 1, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 8, 2, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 8, 3, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 8, 4, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 8, 5, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 8, 6, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 8, 7, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (1, 8, 8, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : select SUDOKU_BOARDS.id, SUDOKU_BOARDS.name from SUDOKU_BOARDS where SUDOKU_BOARDS.name = ?
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : select SUDOKU_BOARDS.id, SUDOKU_BOARDS.name from SUDOKU_BOARDS where SUDOKU_BOARDS.name = 'testBoard'
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Fetched result           : +----+---------+
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener -                          : |  id|name     |
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener -                          : +----+---------+
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener -                          : |   1|testBoard|
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener -                          : +----+---------+
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Fetched row(s)           : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : select SUDOKU_FIELDS.id, SUDOKU_FIELDS.board_id, SUDOKU_FIELDS."row", SUDOKU_FIELDS."column", SUDOKU_FIELDS.value from SUDOKU_FIELDS where SUDOKU_FIELDS.board_id = ?
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : select SUDOKU_FIELDS.id, SUDOKU_FIELDS.board_id, SUDOKU_FIELDS."row", SUDOKU_FIELDS."column", SUDOKU_FIELDS.value from SUDOKU_FIELDS where SUDOKU_FIELDS.board_id = 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Fetched result           : +----+--------+----+------+-----+
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener -                          : |  id|board_id| row|column|value|
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener -                          : +----+--------+----+------+-----+
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener -                          : |   1|       1|   0|     0|    5|
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener -                          : |   2|       1|   0|     1|    0|
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener -                          : |   3|       1|   0|     2|    0|
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener -                          : |   4|       1|   0|     3|    0|
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener -                          : |   5|       1|   0|     4|    0|
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener -                          : +----+--------+----+------+-----+
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Fetched row(s)           : 5 (or more)
+2026-04-05 16:20:46 DEBUG org.jooq.impl.AbstractQuery - DELETE without WHERE     : A statement is executed without WHERE clause
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : delete from SUDOKU_FIELDS
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 81
+2026-04-05 16:20:46 DEBUG org.jooq.impl.AbstractQuery - DELETE without WHERE     : A statement is executed without WHERE clause
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : delete from SUDOKU_BOARDS
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : create table if not exists SUDOKU_BOARDS (id integer primary key autoincrement not null, name clob not null)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 0
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : create table if not exists SUDOKU_FIELDS (id integer primary key autoincrement not null, board_id int, "row" int, "column" int, value int)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 0
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_BOARDS (name) values (?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_BOARDS (name) values ('testBoard1')
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : select SUDOKU_BOARDS.id from SUDOKU_BOARDS where _rowid_ = last_insert_rowid()
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Fetched result           : +----+
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener -                          : |  id|
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener -                          : +----+
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener -                          : |   2|
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener -                          : +----+
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Fetched row(s)           : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 0, 0, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 0, 1, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 0, 2, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 0, 3, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 0, 4, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 0, 5, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 0, 6, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 0, 7, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 0, 8, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 1, 0, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 1, 1, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 1, 2, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 1, 3, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 1, 4, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 1, 5, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 1, 6, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 1, 7, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 1, 8, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 2, 0, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 2, 1, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 2, 2, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 2, 3, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 2, 4, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 2, 5, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 2, 6, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 2, 7, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 2, 8, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 3, 0, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 3, 1, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 3, 2, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 3, 3, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 3, 4, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 3, 5, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 3, 6, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 3, 7, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 3, 8, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 4, 0, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 4, 1, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 4, 2, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 4, 3, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 4, 4, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 4, 5, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 4, 6, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 4, 7, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 4, 8, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 5, 0, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 5, 1, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 5, 2, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 5, 3, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 5, 4, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 5, 5, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 5, 6, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 5, 7, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 5, 8, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 6, 0, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 6, 1, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 6, 2, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 6, 3, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 6, 4, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 6, 5, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 6, 6, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 6, 7, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 6, 8, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 7, 0, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 7, 1, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 7, 2, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 7, 3, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 7, 4, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 7, 5, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 7, 6, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 7, 7, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 7, 8, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 8, 0, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 8, 1, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 8, 2, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 8, 3, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 8, 4, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 8, 5, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 8, 6, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 8, 7, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (2, 8, 8, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_BOARDS (name) values (?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_BOARDS (name) values ('testBoard2')
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : select SUDOKU_BOARDS.id from SUDOKU_BOARDS where _rowid_ = last_insert_rowid()
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Fetched result           : +----+
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener -                          : |  id|
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener -                          : +----+
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener -                          : |   3|
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener -                          : +----+
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Fetched row(s)           : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 0, 0, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 0, 1, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 0, 2, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 0, 3, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 0, 4, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 0, 5, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 0, 6, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 0, 7, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 0, 8, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 1, 0, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 1, 1, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 1, 2, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 1, 3, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 1, 4, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 1, 5, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 1, 6, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 1, 7, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 1, 8, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 2, 0, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 2, 1, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 2, 2, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 2, 3, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 2, 4, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 2, 5, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 2, 6, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 2, 7, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 2, 8, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 3, 0, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 3, 1, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 3, 2, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 3, 3, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 3, 4, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 3, 5, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 3, 6, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 3, 7, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 3, 8, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 4, 0, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 4, 1, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 4, 2, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 4, 3, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 4, 4, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 4, 5, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 4, 6, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 4, 7, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 4, 8, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 5, 0, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 5, 1, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 5, 2, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 5, 3, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 5, 4, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 5, 5, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 5, 6, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 5, 7, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 5, 8, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 6, 0, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 6, 1, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 6, 2, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 6, 3, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 6, 4, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 6, 5, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 6, 6, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 6, 7, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 6, 8, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 7, 0, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 7, 1, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 7, 2, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 7, 3, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 7, 4, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 7, 5, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 7, 6, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 7, 7, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 7, 8, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 8, 0, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 8, 1, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 8, 2, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 8, 3, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 8, 4, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 8, 5, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 8, 6, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 8, 7, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (?, ?, ?, ?)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : insert into SUDOKU_FIELDS (board_id, "row", "column", value) values (3, 8, 8, 0)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 1
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : select SUDOKU_BOARDS.name from SUDOKU_BOARDS
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Fetched result           : +----------+
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener -                          : |name      |
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener -                          : +----------+
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener -                          : |testBoard1|
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener -                          : |testBoard2|
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener -                          : +----------+
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Fetched row(s)           : 2
+2026-04-05 16:20:46 DEBUG org.jooq.impl.AbstractQuery - DELETE without WHERE     : A statement is executed without WHERE clause
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : delete from SUDOKU_FIELDS
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 162
+2026-04-05 16:20:46 DEBUG org.jooq.impl.AbstractQuery - DELETE without WHERE     : A statement is executed without WHERE clause
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : delete from SUDOKU_BOARDS
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 2
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : create table if not exists SUDOKU_BOARDS (id integer primary key autoincrement not null, name clob not null)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 0
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : create table if not exists SUDOKU_FIELDS (id integer primary key autoincrement not null, board_id int, "row" int, "column" int, value int)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 0
+2026-04-05 16:20:46 DEBUG org.jooq.impl.AbstractQuery - DELETE without WHERE     : A statement is executed without WHERE clause
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : delete from SUDOKU_FIELDS
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 0
+2026-04-05 16:20:46 DEBUG org.jooq.impl.AbstractQuery - DELETE without WHERE     : A statement is executed without WHERE clause
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : delete from SUDOKU_BOARDS
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 0
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : create table if not exists SUDOKU_BOARDS (id integer primary key autoincrement not null, name clob not null)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 0
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : create table if not exists SUDOKU_FIELDS (id integer primary key autoincrement not null, board_id int, "row" int, "column" int, value int)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 0
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : select SUDOKU_BOARDS.id, SUDOKU_BOARDS.name from SUDOKU_BOARDS where SUDOKU_BOARDS.name = ?
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - -> with bind values      : select SUDOKU_BOARDS.id, SUDOKU_BOARDS.name from SUDOKU_BOARDS where SUDOKU_BOARDS.name = 'nonExistentBoard'
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Fetched result           : +----+----+
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener -                          : |  id|name|
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener -                          : +----+----+
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Fetched row(s)           : 0
+2026-04-05 16:20:46 DEBUG org.jooq.impl.AbstractQuery - DELETE without WHERE     : A statement is executed without WHERE clause
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : delete from SUDOKU_FIELDS
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 0
+2026-04-05 16:20:46 DEBUG org.jooq.impl.AbstractQuery - DELETE without WHERE     : A statement is executed without WHERE clause
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : delete from SUDOKU_BOARDS
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 0
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : create table if not exists SUDOKU_BOARDS (id integer primary key autoincrement not null, name clob not null)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 0
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : create table if not exists SUDOKU_FIELDS (id integer primary key autoincrement not null, board_id int, "row" int, "column" int, value int)
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 0
+2026-04-05 16:20:46 DEBUG org.jooq.impl.AbstractQuery - DELETE without WHERE     : A statement is executed without WHERE clause
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : delete from SUDOKU_FIELDS
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 0
+2026-04-05 16:20:46 DEBUG org.jooq.impl.AbstractQuery - DELETE without WHERE     : A statement is executed without WHERE clause
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : delete from SUDOKU_BOARDS
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 0
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : drop table if exists SUDOKU_FIELDS
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 0
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Executing query          : drop table if exists SUDOKU_BOARDS
+2026-04-05 16:20:46 DEBUG org.jooq.tools.LoggerListener - Affected row(s)          : 0
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.433 s -- in sudoku.jdbcdao.[1mJdbcSudokuBoardDaoTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 5, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.11:report[m [1m(report)[m @ [36mJdbcDaoProject[0;1m ---[m
+[[1;34mINFO[m] Loading execution data file /home/mason/SynologyDrive/School/winter26/COMP-3350/COMP-3350-sudoku-desktop-game/JdbcDao/target/jacoco.exec
+[[1;34mINFO[m] Analyzed bundle 'JdbcDaoProject' with 18 classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.4:jar[m [1m(default-jar)[m @ [36mJdbcDaoProject[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/mason/SynologyDrive/School/winter26/COMP-3350/COMP-3350-sudoku-desktop-game/JdbcDao/target/JdbcDaoProject-2.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.11:report[m [1m(default-report)[m @ [36mJdbcDaoProject[0;1m ---[m
+[[1;34mINFO[m] Loading execution data file /home/mason/SynologyDrive/School/winter26/COMP-3350/COMP-3350-sudoku-desktop-game/JdbcDao/target/jacoco.exec
+[[1;34mINFO[m] Analyzed bundle 'JdbcDaoProject' with 18 classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.11:check[m [1m(default-check)[m @ [36mJdbcDaoProject[0;1m ---[m
+[[1;34mINFO[m] Loading execution data file /home/mason/SynologyDrive/School/winter26/COMP-3350/COMP-3350-sudoku-desktop-game/JdbcDao/target/jacoco.exec
+[[1;34mINFO[m] Analyzed bundle 'JdbcDaoProject' with 18 classes
+[[1;34mINFO[m] All coverage checks have been met.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mJdbcDaoProject[0;1m ---[m
+[[1;34mINFO[m] Installing /home/mason/SynologyDrive/School/winter26/COMP-3350/COMP-3350-sudoku-desktop-game/JdbcDao/target/JdbcDaoProject-2.0-SNAPSHOT.jar to /home/mason/.m2/repository/sudoku/jdbcdao/JdbcDaoProject/2.0-SNAPSHOT/JdbcDaoProject-2.0-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /home/mason/SynologyDrive/School/winter26/COMP-3350/COMP-3350-sudoku-desktop-game/JdbcDao/pom.xml to /home/mason/.m2/repository/sudoku/jdbcdao/JdbcDaoProject/2.0-SNAPSHOT/JdbcDaoProject-2.0-SNAPSHOT.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------------< [0;36msudoku.view:ViewProject[0;1m >-----------------------[m
+[[1;34mINFO[m] [1mBuilding ViewProject 2.0-SNAPSHOT                                  [5/5][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.11:prepare-agent[m [1m(default-prepare-agent)[m @ [36mViewProject[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/home/mason/.m2/repository/org/jacoco/org.jacoco.agent/0.8.11/org.jacoco.agent-0.8.11-runtime.jar=destfile=/home/mason/SynologyDrive/School/winter26/COMP-3350/COMP-3350-sudoku-desktop-game/View/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mViewProject[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 17 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:compile[m [1m(default-compile)[m @ [36mViewProject[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 10 source files to /home/mason/SynologyDrive/School/winter26/COMP-3350/COMP-3350-sudoku-desktop-game/View/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mViewProject[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/mason/SynologyDrive/School/winter26/COMP-3350/COMP-3350-sudoku-desktop-game/View/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:testCompile[m [1m(default-testCompile)[m @ [36mViewProject[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:3.1.2:test[m [1m(default-test)[m @ [36mViewProject[0;1m ---[m
+[[1;34mINFO[m] No tests to run.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.11:report[m [1m(report)[m @ [36mViewProject[0;1m ---[m
+[[1;34mINFO[m] Skipping JaCoCo execution due to missing execution data file.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.4:jar[m [1m(default-jar)[m @ [36mViewProject[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/mason/SynologyDrive/School/winter26/COMP-3350/COMP-3350-sudoku-desktop-game/View/target/ViewProject-2.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.11:report[m [1m(default-report)[m @ [36mViewProject[0;1m ---[m
+[[1;34mINFO[m] Skipping JaCoCo execution due to missing execution data file.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.11:check[m [1m(default-check)[m @ [36mViewProject[0;1m ---[m
+[[1;34mINFO[m] Skipping JaCoCo execution due to missing execution data file:/home/mason/SynologyDrive/School/winter26/COMP-3350/COMP-3350-sudoku-desktop-game/View/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mViewProject[0;1m ---[m
+[[1;34mINFO[m] Installing /home/mason/SynologyDrive/School/winter26/COMP-3350/COMP-3350-sudoku-desktop-game/View/target/ViewProject-2.0-SNAPSHOT.jar to /home/mason/.m2/repository/sudoku/view/ViewProject/2.0-SNAPSHOT/ViewProject-2.0-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /home/mason/SynologyDrive/School/winter26/COMP-3350/COMP-3350-sudoku-desktop-game/View/pom.xml to /home/mason/.m2/repository/sudoku/view/ViewProject/2.0-SNAPSHOT/ViewProject-2.0-SNAPSHOT.pom
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Summary for SudokuGameProject 2.0-SNAPSHOT:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] SudokuGameProject .................................. [1;32mSUCCESS[m [  0.113 s]
+[[1;34mINFO[m] ModelProject ....................................... [1;32mSUCCESS[m [  2.467 s]
+[[1;34mINFO[m] DaoProject ......................................... [1;32mSUCCESS[m [  1.039 s]
+[[1;34mINFO[m] JdbcDaoProject ..................................... [1;32mSUCCESS[m [  3.666 s]
+[[1;34mINFO[m] ViewProject ........................................ [1;32mSUCCESS[m [  0.166 s]
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  7.519 s
+[[1;34mINFO[m] Finished at: 2026-04-05T16:20:46-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

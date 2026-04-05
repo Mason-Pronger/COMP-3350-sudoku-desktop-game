@@ -25,7 +25,7 @@ public class JdbcSudokuBoardDaoTest {
     private Connection connection;
     private DSLContext dsl;
 
-    @BeforeAll
+    @BeforeEach
     public void setUp() throws SQLException {
         connection = DriverManager.getConnection(TEST_DB_URL);
         dsl = DSL.using(connection, SQLDialect.SQLITE);
